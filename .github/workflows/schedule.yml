@@ -1,7 +1,7 @@
 name: Update gist with WakaTime stats
 on:
   schedule:
-    # Run at the end of every day
+    # Run at the end of every day.
     - cron: "0 0 * * *"
 jobs:
   update-gist:
