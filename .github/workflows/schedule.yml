@@ -1,5 +1,6 @@
 name: Update gist with WakaTime stats
 on:
+  workflow_dispatch:
   schedule:
     # Run at the end of every day.
     - cron: "0 0 * * *"
